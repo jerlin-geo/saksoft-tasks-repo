@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: visible;
+    font-family: sans-serif;
+}
+
+.upper_half{
+    background-image: url(/Task-3/Images/Upper_background_image.jpg);
+    background-size: 100% 100%;
+    height: 40%;
+}
+
+.navbar{
+    background-color: rgb(50, 59, 56);
+    text-align: right;
+    opacity: 0.7;
+    box-shadow: 0 10px 15px 0 rgb(0, 0, 0, 0.15 );
+    padding: 0 75px; 
+}
+
+.navbar li{
+    display: inline-block;
+    margin: 6px 0;
+    padding: 5px 10px;
+}
+
+.navbar ul li .logo{
+    padding: 0;
+    margin: 0;
+}
+
+.logo li{
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.logo img{
+    width: 150px;
+    margin-top: 3px;
+    margin-left: 50px;
+    height: 30px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+ul, li, a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-size: small;
+}
+
+.navbar .drop_down{
+    display: none;
+}
+
+.navbar ul li:hover .drop_down{
+    display: block;
+    position: absolute;
+}
+
+.navbar ul li:hover .drop_down ul {
+    display: inline;
+    position: absolute;
+    color: aqua;
+    border-radius: 4px;
+    box-shadow: 0 10px 15px 0 rgb(0, 0, 0, 0.5 );
+    background-color: rgb(50, 59, 56);  
+    opacity: 0.7; 
+    cursor: pointer;
+    padding: 5px 15px 0px 15px;
+    font-size: small;
+}
+
+.navbar ul li:hover ,.navbar ul li:hover .drop_down ul li:hover{
+    background-color: rgb(122, 143, 143);
+    border-radius: 4px;
+}   
+
+.fa-solid{
+    padding-left: 5px;
+}
+
+.header{
+    text-align: center;
+    padding: 90px;
+    font-size: 25px;
+    color: aliceblue;
+}
+.fa-circle-arrow-down{
+    position: relative;
+    top: 45px;
+    opacity: 0.3;
+    cursor: pointer;
+    
+}
+
+.page .lower_half{
+    display: grid ;
+    grid-template-columns: 30%  30%  30% ;
+    width: 100%;
+    padding: 30px 175px 0 175px; 
+    grid-gap: 30px 50px;
+    text-align: center; 
+    background-color: rgb(245, 249, 255);   
+}
+
+.lower_half fieldset{
+    border: 1px solid rgb(209, 202, 202);
+    border-radius: 3px;
+    box-shadow: 0 10px 15px 0 rgb(0, 0, 0, 0.15 );
+}
+
+.grid_items h1{
+    padding: 7px 0;
+}
+
+.grid_items p{
+    font-size: small;
+}
+
+.grid_items button{
+    padding: 8px;
+    margin: 12px;
+    width: 25%;
+    color: white;
+    border: 0;
+    border-radius: 3px;
+    box-shadow: 0 10px 15px 0 rgb(0, 0, 0, 0.15 );
+}
+
+.grid_items button:hover{
+    cursor: pointer;
+    width: 90px;
+    height: 33px;
+}
+
+.grid_items legend{
+    padding: 8px;
+    position: relative;
+    top: 7px;
+}
+
+.grid_items .green_lgnd{
+    color: rgb(25, 175, 50);
+    font-weight: bold;
+}
+.grid_items .blue_lgnd{
+    color: rgb(24, 113, 185);
+    font-weight: bold;
+}
+.grid_items .red_lgnd{
+    color: rgb(206, 66, 31);
+    font-weight: bold;
+}
+.grid_items .black_lgnd{
+    color: rgb(48, 42, 42);
+    font-weight: bold;
+}
+.grid_items .green_btn{
+    background-color: rgb(25, 175, 50);
+}
+.grid_items .blue_btn{
+    background-color: rgb(24, 113, 185);
+}
+.grid_items .red_btn{
+    background-color: rgb(206, 66, 31);
+}
+.grid_items .black_btn{
+    background-color: rgb(48, 42, 42);
+}
+
+.lower_half span{
+    position:absolute;
+    font-size: 12px;
+}
+

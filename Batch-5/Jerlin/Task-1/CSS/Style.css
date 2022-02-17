@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("/Task-1/images/bg_image.jpg");
+    background-position: center ;
+    
+}
+.navbar{
+    text-align: right;
+    
+}
+.navbar a{
+    display: inline-block;
+    margin: 15px 15px;
+    font-weight: bold;
+}
+
+.navbar a:hover{
+    color: rgb(129, 31, 31);
+    cursor: pointer;
+}
+
+.navbar img{
+    float: left;
+    margin: 10px 0 0 20px;
+    width: 50px;
+    height: 50px;
+}
+
+.container{
+    margin: 55px 55% 0 25%;
+    width: 350px;
+    padding: 15px 25px;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.container label{
+    display: block;
+    font-weight: bold;
+    font-size: small;  
+}
+
+.indate, .outdate{
+    float: left;
+    width: 50%;
+}
+
+.container input[type=text], .container input[type=date], .container select{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px 0 ;
+    border-width: 1px;
+    border-color: rgba(46, 42, 42, 0.37);
+    border-radius: 4px;  
+}
+
+.container .outdate input{
+    border-radius: 0px 4px 4px 0 ;
+}
+
+.container .indate input{
+    border-radius: 4px 0 0 4px  ;
+}
+
+.container input[type=submit]{
+    float: right;
+    width: 25%;
+    height: 5%;
+    margin-top: 5px;
+    background-color: rgb(255, 34, 78);
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 4px;
+    border: 0;  
+}
+
+.container input[type=submit]:hover{
+    background-color: brown;
+    cursor: pointer;
+}
